@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>First digits of open issues count over 1000 repositories of PHP language</title>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div><canvas id="digit-chart"></canvas></div>
+
+<script>
+	const ctx = document.getElementById('digit-chart');
+	new Chart(ctx, {
+		type: 'bar',
+		data: {
+			labels: ["1","2","3","4","5","6","7","8","9"],
+			datasets: [{
+				label: "First digits of open issues count over 1000 repositories of PHP language",
+				data: [261,170,131,94,70,47,38,35,32],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			scales: {
+				y: {
+					beginAtZero: true
+				}
+			}
+		}
+	});
+</script>
+
+<footer>
+	<p>
+		GitHub Bedford law checking
+		&middot;
+		© MaximAL, Sijeko 2023
+		&middot;
+		<a href="https://github.com/maximal/github-bedford">GitHub repository</a>
+	</p>
+</footer>
+</body>
+</html>

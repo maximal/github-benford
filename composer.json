@@ -1,0 +1,28 @@
+{
+	"name": "maximal/simon",
+	"description": "Linux system monitor in a single PHP file with no external libraries",
+	"keywords": [
+		"project",
+		"linux",
+		"monitor",
+		"tool"
+	],
+	"homepage": "https://github.com/maximal/simon",
+	"type": "project",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/maximal/simon/issues?q=is%3Aopen",
+		"source": "https://github.com/maximal/simon"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"require": {
+		"php": "^8.0|^8.1|^8.2",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"run.php"
+		]
+	}
+}
