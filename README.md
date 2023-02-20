@@ -1,6 +1,6 @@
-# GitHub Bedford law checking tool
+# GitHub Benford law checking tool
 
-This PHP script draws graphs checking [Bedford’s law](https://en.wikipedia.org/wiki/Benford's_law) over top 10..1000 GitHub repositories of given programming language.
+This PHP script draws graphs checking [Benford’s law](https://en.wikipedia.org/wiki/Benford's_law) over top 10..1000 GitHub repositories of given programming language.
 
 Used repositories statistics numbers (from which first digits are extracted) are:
 * repository IDs,
@@ -49,6 +49,6 @@ php run.php  <GitHub access token>  PHP  1000
 
 
 ## Author
-* https://github.com/maximal/github-bedford
+* https://github.com/maximal/github-benford
 * https://maximals.ru/
 * https://sijeko.ru/

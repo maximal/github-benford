@@ -1,6 +1,6 @@
 <?php
 /**
- * Bedford law checking over GitHub repositories: IDs, stars, forks, issues count.
+ * Benford law checking over GitHub repositories: IDs, stars, forks, issues count.
  *
  * Code style: PSR-12T (PSR-12 with SmartTabs).
  *
@@ -10,12 +10,12 @@
  * @since 2023-02-20 First version.
  *
  * @copyright ©  MaximAL, Sijeko  2023
- * @link https://github.com/maximal/github-bedford
+ * @link https://github.com/maximal/github-benford
  * @link https://maximals.ru
  * @link https://sijeko.ru
  */
 
-namespace Maximal\GitHubBedfordStatistics;
+namespace Maximal\GitHubBenfordStatistics;
 
 
 // Run only in CLI mode, if explicitly executed
@@ -157,11 +157,11 @@ class App
 
 <footer>
 	<p>
-		GitHub Bedford law checking
+		GitHub Benford law checking
 		&middot;
 		© MaximAL, Sijeko 2023
 		&middot;
-		<a href="https://github.com/maximal/github-bedford">GitHub repository</a>
+		<a href="https://github.com/maximal/github-benford">GitHub repository</a>
 	</p>
 </footer>
 </body>
@@ -175,7 +175,7 @@ class App
 	}
 
 	/**
-	 * Get first digits statistics for Bedford’s law checking
+	 * Get first digits statistics for Benford’s law checking
 	 */
 	private function getDigitStats(array $array): array
 	{
